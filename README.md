@@ -4,3 +4,4 @@ The system can run on a document, and then outputs the result to a file. It can 
 Tokenization: abbreviations are turned into one term. Ex: "U.S.A." becomes "USA". All other punctuation is just considered a word separator. Ex: "500.00" becomes ["500", "00"]. Lowercase all letters. 
 Stopword removal is implemented. You can use your own stopwords.txt file. 
 The first two steps of Porter stemming is implemented (see http://snowball.tartarus.org/algorithms/porter/stemmer.html). 
+The program can also tokenize, stopword remove, and Porter stem a document of your choice and then output a list of the terms and their frequencies.
